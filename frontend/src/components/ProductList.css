@@ -1,0 +1,89 @@
+.product-list-container {
+    padding: 20px;
+    background-color: #f5f5f5; /* Light background color */
+    min-height: 100vh; /* Minimum height to cover full viewport */
+}
+
+h2 {
+    color: #282c34; /* Dark text color */
+    margin-bottom: 20px;
+}
+
+.product-list {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove padding */
+}
+
+.product-item {
+    background: white;
+    border: 1px solid #ddd; /* Light border for items */
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px;
+    margin-bottom: 10px; /* Space between items */
+    display: flex;
+    justify-content: space-between; /* Space between product info and actions */
+    align-items: center; /* Center vertically */
+}
+
+.product-info {
+    flex-grow: 1; /* Allow product info to grow */
+}
+
+.product-actions {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+}
+
+.edit-button, .delete-button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white; /* Text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Transition for hover effect */
+}
+
+.edit-button {
+    background-color: #61dafb; /* Light blue for edit */
+}
+
+.edit-button:hover {
+    background-color: #21a1f1; /* Darker blue on hover */
+}
+
+.delete-button {
+    background-color: #ff4d4d; /* Red for delete */
+}
+
+.delete-button:hover {
+    background-color: #ff0000; /* Darker red on hover */
+}
+
+
+
+.search-input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    width: 100%; /* Full width */
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+
+.type-select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%; /* Full width */
+}
+
+/* Optional: Add styles for the dropdown */
+.type-select option {
+    padding: 10px;
+}
